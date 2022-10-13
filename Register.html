@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <form id="studentForm">
+        <input type="number" placeholder="Uniqe Id" name="roll" required />
+        <input type="text" placeholder="Student name" name="name" required />
+        <input type="number" placeholder="Student age" name="age" required />
+        
+        <select name="designation" id="cars">
+            <option value="student">student</option>
+            <option value="employee">employee</option>
+        </select>
+        <select name="priority" id="cars">
+                <option value="p0">P0</option>
+                <option value="p1">P1</option>
+                <option value="p2">P2</option>
+                <option value="p3">P3</option>
+        </select>
+        <select name="vaccine" id="cars">
+            <option value="covisheild">covisheild</option>
+            <option value="covaxine">Covaxine</option>
+            <option value="sputtnik">Spputtnik</option>
+        </select>
+           
+        <button>Add student</button>
+      </form>
+      <div class="people"></div>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
